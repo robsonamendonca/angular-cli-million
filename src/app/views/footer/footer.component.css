@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  position: absolute;
+  background-color: #ccc;
+  width: 100%;
+}
+
+.container {
+  left: 50%;
+}
+
+[role="footer"] {
+  padding-bottom: 148px; /* Espaço para o navbar fixo. */
+}
